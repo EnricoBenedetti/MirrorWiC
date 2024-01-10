@@ -1,0 +1,33 @@
+results
+cambridgeltl/mirrorwic-bert-base-uncased - XL-WiC
+==WIC RESULTS==: thres: 0.9553357577323913, num of correct: 115, percentage: 0.5555555555555556
+==WIC RESULTS==: thres: 0.9553357577323913, num of correct: 445, percentage: 0.5407047387606319
+test auc:  0.5734799092906244
+cambridgeltl/mirrorwic-bert-base-uncased - AM2iCo
+==WIC RESULTS==: thres: 0.16928692340850793, num of correct: 269, percentage: 0.538
+==WIC RESULTS==: thres: 0.16928692340850793, num of correct: 504, percentage: 0.504
+test auc:  0.5162640000000001
+cl-tohoku/bert-base-japanese-v3 - XL-WiC
+==WIC RESULTS==: thres: 0.8231228852272032, num of correct: 134, percentage: 0.6473429951690821
+==WIC RESULTS==: thres: 0.8231228852272032, num of correct: 523, percentage: 0.6354799513973268
+test auc:  0.6905428389199915
+cl-tohoku/bert-base-japanese-v3 - AM2iCo
+==WIC RESULTS==: thres: 0.5248442220687863, num of correct: 294, percentage: 0.588
+==WIC RESULTS==: thres: 0.5248442220687863, num of correct: 599, percentage: 0.599
+test auc:  0.6378999999999999
+../tmp/cl-tohoku/bert-base-japanese-v3_mirror_ja_wiki.txt.mirror.wic.re10_pairwise_re_infonce0.04_maxlen50_bs200_online_dropout0.4_drophead_v3_tokenmarker4layer_rs33 - XL-WiC
+==WIC RESULTS==: thres: 0.7342264842987059, num of correct: 138, percentage: 0.6666666666666666
+==WIC RESULTS==: thres: 0.7342264842987059, num of correct: 527, percentage: 0.6403402187120292
+test auc:  0.709124678147072
+../tmp/cl-tohoku/bert-base-japanese-v3_mirror_ja_wiki.txt.mirror.wic.re10_pairwise_re_infonce0.04_maxlen50_bs200_online_dropout0.4_drophead_v3_tokenmarker4layer_rs33 - AM2iCo
+==WIC RESULTS==: thres: 0.34927763223648034, num of correct: 324, percentage: 0.648
+==WIC RESULTS==: thres: 0.34927763223648034, num of correct: 643, percentage: 0.643
+test auc:  0.68668
+sonoisa/sentence-bert-base-ja-mean-tokens-v2 - XL-WiC
+==WIC RESULTS==: thres: 0.7916886878013609, num of correct: 130, percentage: 0.6280193236714976
+==WIC RESULTS==: thres: 0.7916886878013609, num of correct: 492, percentage: 0.5978128797083839
+test auc:  0.6543535775872251
+sonoisa/sentence-bert-base-ja-mean-tokens-v2 - AM2iCo
+==WIC RESULTS==: thres: 0.437657113075256, num of correct: 296, percentage: 0.592
+==WIC RESULTS==: thres: 0.437657113075256, num of correct: 592, percentage: 0.592
+test auc:  0.632944

@@ -1,0 +1,267 @@
+{
+    "os": "Linux-5.4.0-159-generic-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-03T11:06:23.875347",
+    "startedAt": "2024-01-03T11:06:23.237466",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_dir",
+        "bert-base-uncased",
+        "--train_dir",
+        "../train_data/ja_wiki.txt.mirror.wic.re10",
+        "--output_dir",
+        "../tmp/bert-base-uncased_mirror_ja_wiki.txt.mirror.wic.re10_pairwise_re_infonce0.04_maxlen50_bs200_online_dropout0.4_drophead_v3_tokenmarker4layer_rs33",
+        "--use_cuda",
+        "--epoch",
+        "2",
+        "--train_batch_size",
+        "200",
+        "--learning_rate",
+        "2e-5",
+        "--max_length",
+        "50",
+        "--checkpoint_step",
+        "50",
+        "--parallel",
+        "--amp",
+        "--random_seed",
+        "33",
+        "--loss",
+        "infoNCE",
+        "--infoNCE_tau",
+        "0.04",
+        "--pairwise",
+        "--dropout_rate",
+        "0.4",
+        "--agg_mode",
+        "tokenmarker4layer"
+    ],
+    "state": "running",
+    "program": "/disks/disk00/enrico_benedetti/nihongoexample/evaluation/sense/MirrorWiC/train_scripts/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train_scripts/train.py",
+    "git": {
+        "remote": "https://github.com/cambridgeltl/MirrorWiC",
+        "commit": "a0b6ed5ff980f0ed92d84640f07729b6e02f1f6f"
+    },
+    "email": "enrico.benedetti5@studio.unibo.it",
+    "root": "/disks/disk00/enrico_benedetti/nihongoexample/evaluation/sense/MirrorWiC",
+    "host": "ieyasu",
+    "username": "enrico_benedetti",
+    "executable": "/home/enrico_benedetti/anaconda3/envs/WIC/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1573.5780937499999,
+        "min": 1500.0,
+        "max": 3100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1448.413,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1368.923,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1426.506,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1456.442,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1387.72,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1348.317,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1370.185,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1379.027,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.493,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1497.926,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1498.147,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1497.466,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1425.001,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 3199.399,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.313,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.801,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1426.025,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1368.398,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1482.276,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1386.905,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1496.173,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1497.489,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1422.805,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1863.596,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.549,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.447,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1493.865,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1497.506,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1420.156,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 3199.225,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.59,
+            "min": 1500.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1499.415,
+            "min": 1500.0,
+            "max": 3100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 10643.24154663086,
+            "used": 9023.532093048096
+        }
+    },
+    "gpu": "NVIDIA Graphics Device",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        },
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 85198045184
+        }
+    ],
+    "memory": {
+        "total": 503.7523193359375
+    }
+}

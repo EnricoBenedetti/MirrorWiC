@@ -5,7 +5,7 @@ dropout=0.4
 agg='tokenmarker4layer'
 rs=33
 data=$2
-model="bert-base-uncased"
+model="cl-tohoku/bert-base-japanese-v3"
 CUDA_VISIBLE_DEVICES=$1 python3 train.py \
 	--model_dir ${model} \
 	--train_dir "${data}"  \

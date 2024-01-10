@@ -42,7 +42,7 @@ then
 
 elif [ $task == xlwic ]
 then
-    for lg in chinese_zh korean_ko croatian_hr estonian_et; do
+    for lg in japanese_ja; do
             echo "===========testing" $lg
             python test_wic.py $model  ../eval_data/xlwic_datasets/xlwic_wn/$lg token $cuda 100 9~13
            
@@ -50,7 +50,7 @@ then
 
 elif [ $task == am2ico ]
 then
-    for lg in zh ka ja ar; do
+    for lg in ja; do
         echo "==============testing" $lg
         python test_wic.py $model  ../eval_data/AM2iCo/data/$lg token $cuda 300 9~13
     done
